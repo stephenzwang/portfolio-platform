@@ -13,8 +13,8 @@ export const site = {
   headline: "Full-Stack Software Developer",
   /** Hero paragraphs — each entry renders as its own paragraph */
   intro: [
-    "Full-Stack Software Developer with 10+ years of experience building, modernizing, and maintaining production web applications and business software.",
-    "I work across the whole stack — React and Next.js front ends, backend services and REST APIs, SQL and NoSQL databases, third-party integrations, and the deployments and production support that keep them running.",
+    "Full-Stack Software Developer with 10+ years of experience building scalable web applications, e-commerce platforms, CMS solutions, and custom business software.",
+    "I work across the whole stack — React and Next.js front ends, backend services and REST APIs, PHP and WordPress systems, SQL databases, third-party integrations, and the deployments that keep them running. My focus is performance, architecture, and reliable production releases.",
   ],
   /**
    * Positioning statement. Rendered in the About section for now; written as
@@ -47,8 +47,8 @@ export const site = {
   socials: {
     /** No GitHub profile is linked from the site — leave as "" to hide every GitHub link. */
     github: "",
-    /** No LinkedIn on file — leave as "" to hide every LinkedIn link on the site. */
-    linkedin: "",
+    /** LinkedIn profile, as printed on the resume. Set to "" to hide every LinkedIn link. */
+    linkedin: "https://www.linkedin.com/in/stephen-wang-8a7a9443b",
   },
 } as const;
 

@@ -1,5 +1,5 @@
 import type { CSSProperties } from "react";
-import { ArrowRight, Cloud, Database, Mail, PanelsTopLeft, Server } from "lucide-react";
+import { ArrowRight, BrainCircuit, Cloud, Database, Mail, PanelsTopLeft, Server } from "lucide-react";
 import { HeroBackdrop } from "@/components/HeroBackdrop";
 import { site } from "@/data/site";
 import { GitHubIcon, LinkedInIcon } from "@/components/BrandIcons";
@@ -17,13 +17,19 @@ const layers = [
     icon: PanelsTopLeft,
     title: "Frontend",
     detail: "Interfaces, components and web applications",
-    tech: ["React", "Next.js", "Angular", "TypeScript", "HTML5", "CSS3"],
+    tech: ["React", "Next.js", "Angular", "TypeScript", "HTML5", "CSS"],
   },
   {
     icon: Server,
     title: "Backend & APIs",
     detail: "Services, REST APIs and business logic",
     tech: ["Node.js", "REST APIs", "Web APIs", "PHP", "C#"],
+  },
+  {
+    icon: BrainCircuit,
+    title: "AI & LLM",
+    detail: "Model integration, prompting and agents",
+    tech: ["LLM Integration", "Prompt Engineering", "AI Agents"],
   },
   {
     icon: Database,
@@ -33,9 +39,9 @@ const layers = [
   },
   {
     icon: Cloud,
-    title: "Cloud & Infrastructure",
-    detail: "Hosting, deployment and production support",
-    tech: ["Azure", "AWS", "Docker", "GitHub Actions", "Linux"],
+    title: "Cloud & DevOps",
+    detail: "Hosting, pipelines and production support",
+    tech: ["Azure", "AWS", "Docker", "CI/CD", "GitHub Actions"],
   },
 ];
 

@@ -20,6 +20,7 @@ export type SkillIconName =
   | "code"
   | "layout"
   | "server"
+  | "ai"
   | "database"
   | "cloud"
   | "shield"

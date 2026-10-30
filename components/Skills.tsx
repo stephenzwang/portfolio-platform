@@ -1,5 +1,6 @@
 import {
   Blocks,
+  BrainCircuit,
   Cloud,
   Code,
   Database,
@@ -26,6 +27,8 @@ function CategoryIcon({ name, className }: { name: SkillIconName; className?: st
       return <PanelsTopLeft {...props} />;
     case "server":
       return <Server {...props} />;
+    case "ai":
+      return <BrainCircuit {...props} />;
     case "database":
       return <Database {...props} />;
     case "cloud":

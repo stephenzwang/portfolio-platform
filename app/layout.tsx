@@ -127,6 +127,7 @@ const structuredData = {
     "JavaScript",
     "Node.js",
     "PHP",
+    "WordPress",
     "REST APIs",
     "SQL Server",
     "MySQL",
@@ -134,7 +135,10 @@ const structuredData = {
     "E-commerce Platforms",
     "Content Management Systems",
     "API Integration",
+    "LLM Integration",
+    "AI Agents",
     "Cloud Deployment",
+    "CI/CD",
   ],
   /* Only social profiles that are actually set are emitted. */
   sameAs: [site.socials.github, site.socials.linkedin].filter(Boolean),
